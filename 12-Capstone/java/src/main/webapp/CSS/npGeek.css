@@ -1,0 +1,191 @@
+header {
+	width: 100%;
+	background-color: beige;
+}
+
+header img {
+	height: 200px;
+}
+
+header div {
+	background-color: #355A42;
+}
+
+nav #navbuttons {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+	font-family: Optima, sans-serif;
+}
+
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 20px;
+	background-color: #355A42;
+	border-radius: 8px;
+	list-style: none;
+	text-align: center;
+	width: 200px;
+	padding-top: 5px;
+}
+
+nav li:hover {
+	  background-color: #cad9b4;
+	  border-radius:70%;
+	   border-width: 15px;
+	   opacity: 0.9;
+}
+
+#main-content {
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	margin: 60px 78px;
+	min-height: 400px;
+	padding-top: 10px;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#park {
+	display: flex;
+	flex-direction: row; width : 100%; 
+	justify-content : space-evenly;
+	padding : 10px;
+	border-style: solid;
+	padding-top: 25px;
+	margin: 5px;
+	border-color: #355A42;
+	border-width: 2px;
+	padding: 10px;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+#forecast-link {
+	font-size: 20px;
+}
+
+#parkInfo{
+	width:60%;
+	display: inline-block;
+}
+
+#park-info {
+	width: 40%;
+	display: inline-block;	
+}
+
+#park-info > img{
+	width: 80%;
+}
+	
+#park img{
+	width: 80%;
+	
+}
+	
+
+#park-stats {
+	display: inline-block;
+	width: 40%;
+	border-style: solid;
+	border-color: #355A42;
+	border-width: 1px;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: left;
+	margin-bottom: 5%;
+}
+
+#quote {
+	font-family: cursive;
+	text-align: center;
+}
+
+#author {
+	text-align: center;
+	padding-left: 715px;;
+}
+
+#today {
+	border-style: dotted;
+	border-width: 1px;
+	padding: 20px;
+}
+
+#flex-box {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
+}
+
+#flex-toggle {
+	align: center:
+}
+
+#weather {
+	text-align: center;
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+#survey {
+	border-style: dashed;
+	border-color: #355A42;
+	background: beige;
+	border-width: 1px;
+	padding: 15px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+form div{
+	margin: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%
+}
+
+table th {
+	border-style: solid;
+	color: white;
+	background-color: #355A42;
+	border-width: 1px;
+	border-color: #355A42;
+	width: 73%;	  
+}
+
+table tr{
+	text-align: left;
+  	border-bottom: 1px solid #355A42;
+  }
+  
+  table th, table td{
+        padding: 10px;
+    }
+  
+
